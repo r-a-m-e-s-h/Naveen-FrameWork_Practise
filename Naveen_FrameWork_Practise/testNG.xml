@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "FrameWorkPractise suite" >
+
+<test name = "practise">
+
+
+<classes>
+
+<class name="testCases.Login_Test" />
+
+
+</classes>
+
+
+</test>
+
+
+</suite>
