@@ -1,5 +1,5 @@
 package pageObjects;
 
-public class ConatctsPage {
+public class TasksPage {
 
 }

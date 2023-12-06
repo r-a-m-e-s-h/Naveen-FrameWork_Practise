@@ -1,12 +1,17 @@
 package utilites;
 
-public class ReusableMethods {
+import testCases.BaseClass;
+
+public class ReusableMethods extends BaseClass {
 	
 
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	
 	public static long IMPLICIT_WAIT = 10;
 	
+	public static void swicthToFrame()
+	{
+		driver.switchTo().frame("mainpanel");
 	
-	
+	}
 }

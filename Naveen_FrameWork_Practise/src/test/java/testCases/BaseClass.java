@@ -5,7 +5,9 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -27,7 +29,7 @@ public class BaseClass {
 	
 	
 	
-	@BeforeTest
+	@BeforeClass
 	public void setUp()
 	{
 		
@@ -56,7 +58,7 @@ public class BaseClass {
 		
 		
 	}
-	@AfterTest
+	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
