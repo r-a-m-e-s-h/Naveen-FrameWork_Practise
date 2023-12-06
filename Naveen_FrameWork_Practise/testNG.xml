@@ -7,12 +7,12 @@
 <classes>
 
 <class name="testCases.Login_Test" />
+<class name="testCases.HomePage_Test" />
 
 
 </classes>
 
 
 </test>
-
 
 </suite>
