@@ -35,28 +35,36 @@ public class HomePage extends BaseClass {
 		System.out.println(homePageTitle);
 		return homePageTitle;
 	}
+	
+	public boolean validateUserLabel()
+	{
+		ReusableMethods.swicthToFrame();
+		boolean username = userLabel.isDisplayed();
+		Assert.assertTrue(username);
+		ReusableMethods.switchToDefaultContent();
+		return username;
+		
+	}
+	
 	public ContactsPage clickOnConatctLink()
 	{
+		ReusableMethods.swicthToFrame();
 		contacts_Link.click();
 		return new ContactsPage();
 	}
+	
 	public DealsPage clickOnDealsLink()
 	{
 		deals_Link.click();
 		return new DealsPage();
 	}
+	
 	public TasksPage clickOnTasksLink()
 	{
 		tasks_links.click();
 		return new TasksPage();
 	}
-	public boolean validateUserLabel()
-	{
-		ReusableMethods.swicthToFrame();
-		boolean username = userLabel.isDisplayed();
-		return username;
-		
-	}
+	
 	
 	
 	

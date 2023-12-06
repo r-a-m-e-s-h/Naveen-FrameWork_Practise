@@ -12,7 +12,7 @@ import pageObjects.Loginpage;
 import pageObjects.TasksPage;
 
 
-public class HoemPage_Test extends BaseClass {
+public class HomePage_Test extends BaseClass {
 	
 	HomePage hp;
 	ContactsPage cp;
@@ -32,6 +32,8 @@ public class HoemPage_Test extends BaseClass {
 		hp.verifyHomePageTitle();
 		
 		hp.validateUserLabel();
+		
+		cp = hp.clickOnConatctLink();
 	}
 		
 	/*

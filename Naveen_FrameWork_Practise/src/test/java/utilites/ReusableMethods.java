@@ -11,7 +11,11 @@ public class ReusableMethods extends BaseClass {
 	
 	public static void swicthToFrame()
 	{
-		driver.switchTo().frame("mainpanel");
-	
+		driver.switchTo().frame("mainpanel");	
+	}
+	public static void switchToDefaultContent()
+	{
+		driver.switchTo().defaultContent();
+		
 	}
 }

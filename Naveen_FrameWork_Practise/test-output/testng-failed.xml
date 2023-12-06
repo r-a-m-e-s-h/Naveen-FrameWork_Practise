@@ -7,8 +7,6 @@
         <methods>
           <include name="verifyuserlabel"/>
           <include name="setUp"/>
-          <include name="quit"/>
-          <include name="login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.HoemPage_Test -->
